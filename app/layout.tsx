@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "NoteHub",
     description:
       "NoteHub — зручний застосунок для створення, збереження та керування нотатками.",
-    url: "https://notehub.app",
+    url: "https://08-zustand-omega-tan.vercel.app/",
     siteName: "NoteHub",
     images: [
       {

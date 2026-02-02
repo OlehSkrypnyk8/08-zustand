@@ -33,8 +33,8 @@ export async function generateMetadata({
       description,
       url:
         tag === "All"
-          ? "https://notehub.app/notes/filter/all"
-          : `https://notehub.app/notes/filter/${tag}`,
+          ? "https://08-zustand-omega-tan.vercel.app/notes/filter/all"
+          : `https://08-zustand-omega-tan.vercel.app/notes/filter/${tag}`,
       images: [
         {
           url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
