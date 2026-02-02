@@ -9,6 +9,7 @@ import Pagination from "@/components/Pagination/Pagination";
 import NoteForm from "@/components/NoteForm/NoteForm";
 import Modal from "@/components/Modal/Modal";
 import SearchBox from "@/components/SearchBox/SearchBox";
+import Link from "next/link";
 
 import css from "@/app/notes/filter/[...slug]/Notes.module.css";
 
@@ -59,13 +60,9 @@ function NotesClient({ tag }: NotesClientProps) {
           />
         )}
 
-        <button
-          type="button"
-          className={css.button}
-          onClick={() => setShowForm(true)}
-        >
-          Create Note+
-        </button>
+        <Link href="/notes/action/create" className={css.button}>
+          Create note+
+        </Link>
       </header>
 
       {showForm && (
